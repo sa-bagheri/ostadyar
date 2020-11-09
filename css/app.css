@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url("fonts/IRANSans.ttf");
+}
+body {
+    font-family: IRANSans, Tahoma, 'Times New Roman';
+    line-height: 1.5;
+    color: #f5f6f7;
+    direction: rtl;
+}
+
+p {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+.mb2 {
+    margin-bottom: 50px;
+}
+a:hover{
+    text-decoration:none;
+}
+
+
+.navbar-default a {
+    color: white !important;
+}
+
+.list-group {
+    padding:0;
+}
+
+.bg-0 {
+    background-color: #018577;
+    color: #ffffff;
+}
+
+.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.faqcat{
+    font-size:20px;
+    font-weight: bold;
+    margin:20px 0;
+}
+.faqqs {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+    display: block;
+    color: #337ab7;
+}
+.faqlink {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+}
+.faqresp {
+    font-size: 16px;
+    list-style-type:none;
+}
+div#faq ul{
+    padding:0 15px 0;
+}
